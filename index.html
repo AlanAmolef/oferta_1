@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Nombre Apellido1 Apellido2 | Candidato</title>
+    <title>Diputado Nombre Apellido1 Apellido2</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -11,23 +11,23 @@
         <div class="container">
             <span>📞 +569 1111 2222</span>
             <span>📧 correo@gmail.com</span>
-            <span>📍 COMUNA, DISTRITO</span>
+            <span>📍 COMUNA_1, COMUNA_2, COMUNA_3, COMUNA_4, COMUNA_5, COMUNA_6</span>
         </div>
     </header>
 
     <nav class="navbar">
         <div class="container">
-            <h1 class="logo">Nombre Apellido1 Apellido2</h1>
+            <h1 class="logo">Diputado Nombre Apellido1 Apellido2</h1>
             <ul class="menu">
-                <li><a href="index.html">Inicio</a></li>
-                <li><a href="propuestas.html">Propuestas</a></li>
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="#propuestas">Propuestas</a></li>
                 <li><a href="#">Contacto</a></li>
             </ul>
         </div>
     </nav>
 
-    <section class="hero">
-        <div class="container">
+    <section class="hero" id="inicio">
+        <div class="container hero-flex">
             <div class="hero-text">
                 <h2>¡Un Futuro Mejor Para COMUNA!</h2>
                 <p>Conoce al candidato y su compromiso con nuestra comunidad.</p>
@@ -38,8 +38,20 @@
         </div>
     </section>
 
+    <section class="propuestas" id="propuestas">
+        <div class="container">
+            <h2>Propuestas</h2>
+            <h3>Propuesta 1</h3>
+            <p class="justificado">aaaaaaaaaaaaaaaaaa</p>
+            <h3>Propuesta 2</h3>
+            <p class="justificado">bbbbbbbbbbbb</p>
+            <h3>Propuesta 3</h3>
+            <p class="justificado">cccccccccccccccccccc</p>
+        </div>
+    </section>
+
     <footer class="footer">
-        <p>© 2025 Nombre Apellido1 Apellido2 - Todos los derechos reservados.</p>
+        <p>© 2025 Diputado Nombre Apellido1 Apellido2 - Todos los derechos reservados.</p>
     </footer>
 </body>
 </html>
