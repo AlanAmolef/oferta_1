@@ -120,3 +120,11 @@ body {
     display: block;
     margin: 0 auto 10px;
 }
+
+.propuesta-box {
+    background: #f1f1f1;
+    border-radius: 15px;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
