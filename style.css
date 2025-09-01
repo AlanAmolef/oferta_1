@@ -54,7 +54,7 @@ body {
     position: relative;
     padding: 40px 0;
     overflow: hidden;
-    background: var(--chile-red);
+    background: var(--chile-blue);
     color: var(--chile-white);
 }
 .hero-flex {
