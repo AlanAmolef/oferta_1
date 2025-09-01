@@ -1,9 +1,15 @@
+/* Palette inspirada en la bandera chilena */
+:root {
+    --chile-blue: #0033a0;
+    --chile-red: #d52b1e;
+    --chile-white: #ffffff;
+}
 
 body {
     margin: 0;
     font-family: Arial, sans-serif;
-    background: #f7f7f7;
-    color: #333;
+    background: var(--chile-white);
+    color: var(--chile-blue);
 }
 .container {
     width: 90%;
@@ -11,8 +17,8 @@ body {
     margin: auto;
 }
 .top-bar {
-    background: #003366;
-    color: white;
+    background: var(--chile-blue);
+    color: var(--chile-white);
     padding: 10px 0;
     font-size: 14px;
     display: flex;
@@ -21,14 +27,14 @@ body {
     flex-wrap: wrap;
 }
 .navbar {
-    background: white;
-    border-bottom: 2px solid #ccc;
+    background: var(--chile-white);
+    border-bottom: 4px solid var(--chile-red);
     padding: 15px 0;
 }
 .logo {
     margin: 0;
     font-size: 24px;
-    color: #003366;
+    color: var(--chile-blue);
 }
 .menu {
     list-style: none;
@@ -38,25 +44,18 @@ body {
 }
 .menu li a {
     text-decoration: none;
-    color: #333;
+    color: var(--chile-blue);
     font-weight: bold;
+}
+.menu li a:hover {
+    color: var(--chile-red);
 }
 .hero {
     position: relative;
     padding: 40px 0;
     overflow: hidden;
-    background: #e5e5e5;
-}
-
-.hero::before {
-    content: "";
-    position: absolute;
-    inset: 0;
-    background: url('img/chile_flag.svg') center / cover no-repeat;
-    filter: blur(8px);
-    transform: scale(1.1);
-    opacity: 0.4;
-    z-index: -1;
+    background: var(--chile-red);
+    color: var(--chile-white);
 }
 .hero-flex {
     display: flex;
@@ -73,20 +72,21 @@ body {
     border-radius: 8px;
 }
 .propuestas {
-    background: white;
+    background: var(--chile-white);
     padding: 40px 20px;
 }
 .propuestas h2 {
     text-align: center;
     margin-bottom: 30px;
+    color: var(--chile-blue);
 }
 .justificado {
     text-align: justify;
     margin-bottom: 20px;
 }
 .footer {
-    background: #003366;
-    color: white;
+    background: var(--chile-blue);
+    color: var(--chile-white);
     text-align: center;
     padding: 20px 0;
     margin-top: 30px;
@@ -102,12 +102,13 @@ body {
 }
 
 .comunas {
-    background: #f0f0f0;
+    background: var(--chile-white);
     padding: 30px 20px;
     text-align: center;
 }
 .comunas h3 {
     margin-bottom: 15px;
+    color: var(--chile-blue);
 }
 .comunas ul {
     list-style: none;
@@ -135,16 +136,17 @@ body {
 }
 
 .propuesta-box {
-    background: #f1f1f1;
+    background: var(--chile-white);
     border-radius: 15px;
     padding: 20px;
     margin-bottom: 20px;
     box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    border-left: 6px solid var(--chile-red);
 }
 
 .footer-info {
-    background: #222;
-    color: #fff;
+    background: var(--chile-red);
+    color: var(--chile-white);
     padding: 40px 20px;
 }
 .footer-grid {
@@ -153,7 +155,7 @@ body {
     gap: 30px;
 }
 .footer-grid h3 {
-    border-bottom: 2px solid #999;
+    border-bottom: 2px solid var(--chile-white);
     padding-bottom: 5px;
     margin-bottom: 15px;
 }
@@ -170,14 +172,14 @@ body {
     margin-bottom: 8px;
 }
 .footer-enlaces a {
-    color: #ccc;
+    color: var(--chile-white);
     text-decoration: none;
 }
 .footer-enlaces a:hover {
     text-decoration: underline;
 }
 .footer-contacto a {
-    color: #ccc;
+    color: var(--chile-white);
     text-decoration: none;
 }
 .footer-contacto a:hover {
