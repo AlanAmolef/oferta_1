@@ -163,6 +163,13 @@ body {
 .footer-enlaces a:hover {
     text-decoration: underline;
 }
+.footer-contacto a {
+    color: #ccc;
+    text-decoration: none;
+}
+.footer-contacto a:hover {
+    text-decoration: underline;
+}
 .redes-icons span {
     font-size: 24px;
     margin-right: 10px;
